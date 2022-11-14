@@ -8,17 +8,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/218227aa6c.js" crossorigin="anonymous"></script>
     <title>P2</title>
 </head>
 <body>
     <header>
         <div class="container-fluid">
             <div class="container">
-                <div class="row"> 
+                <div class="row align-items-center"> 
                     <div class="col-2 pr-3">
                         <img class="img-fluid" src="images/Logo.png" alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-2"></div>
+                    <div class="col-6 pl-4">
                         <nav class="navbar navbar-expand-lg">
                             <div class="container-fluid">
                               <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,7 +42,7 @@
                             </div>
                           </nav>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 justify-content-end">
                         <button type="button" class="btn btn-outline-primary">Contact Me</button>
                     </div>
                 </div>
@@ -55,8 +57,8 @@
                         <div class="col-6">
                             <div class="mt-5">
                                 <p>Hey, I am John</p>
-                                <h1>I create product design and brand experience</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit nesciunt minus ex magnam. Fugit inventore quisquam, maiores iste, aut nesciunt dicta, nemo nobis totam officia earum sequi dolor ipsam.</p>
+                                <h1>I create <span class="text-secondary">product design</span> and brand experience</h1>
+                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit nesciunt minus ex magnam. Fugit inventore quisquam, maiores iste, aut nesciunt dicta, nemo nobis totam officia earum sequi dolor ipsam.</p>
                                 <button type="button" class="btn btn-primary">Get in Touch</button>
                             </div>
                             
@@ -230,27 +232,123 @@
                       </div>
                     </div>
                 </section>
-                <section id="formulario" class="text-center">
-                  <p>Get In Touch</p>
-                  <h2>Contact me</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  <form action="">
-                    <div class="row">
-                      <div class="col-6">
-                        <label for="1">First name</label>
-                        <input type="text" name="1">
-                      </div>
-                      <div class="col-6 d-block">
-                        <p>Last Name</p>
-                        <input type="text" name="2">
+                <section id="formulario" class="pb-5 align-items-center">
+                  <p class="text-center">Get In Touch</p>
+                  <h2 class="text-center">Contact me</h2>
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  
+                  <form class="row  w-75">
+                    <div class="col-md-6 pb-3">
+                      <label class="form-label">First Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Last Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 pb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Phone number</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-12 pb-3">
+                      <label class="form-label">Choose a topic</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Select one...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12 pb-3">
+                      <label class="form-label">Message</label>
+                      <textarea class="form-control" rows="10" placeholder="Type your message..."></textarea>
+                    </div>
+                    <div class="col-12 pb-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          I accept the terms
+                        </label>
                       </div>
                     </div>
-                   
-                  </form> 
+                    <div class="col-12 text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
                 </section>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer class="pb-4">
+      <div class="container-fluid ">
+        <div class="container bg-info">
+          <div class="row align-items-center pb-5"> 
+            <div class="col-2 pr-3">
+                <img class="img-fluid" src="images/Logo.png" alt="">
+            </div>
+            <div class="col-8" style="padding-left: 12%;">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link">Testimonials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link">Portfolio</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-2">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="row border-top border-dark justify-content-between pb-5">
+          <div class="col-2 pt-3">
+              <p>Made with 💖 by Airdokan</p>
+          </div>
+          <div class="col-4 d-flex">
+            <nav class="navbar navbar-expand-lg ">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Terms of Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Cookies Settings</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
