@@ -1,54 +1,64 @@
-h1{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 120%; 
-    color: #000000;
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #000000;
 }
-h2{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 120%;
-    color: #000000;
-  }
-h3{
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #000000;
+}
+
+h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
   color: #000000;
 }
-a{
+
+a {
   color: black;
 }
-.p1{
+
+.p1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #000000;
 }
-.p2{
+
+.p2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #000000;
 }
-.img-icono{
+
+.img-icono {
   width: 40px;
   height: 40px;
 }
-.apartado{
+
+.apartado {
   border-bottom: 3px solid #5E3BEE;
   border-radius: 8px;
 }
-.estrella{
+
+.estrella {
   width: 20px;
   height: 18.89px;
   padding-left: 0.5%;
 }
-.opinion{
+
+.opinion {
   border: 1px solid #006B6A !important;
   border-radius: 6px;
 }
-.img-avatar{
+
+.img-avatar {
   width: 56px;
-height: 56px;
-}
+  height: 56px;
+}/*# sourceMappingURL=estilo.css.map */

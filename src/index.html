@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../scss/estilo.css">
+    <link rel="stylesheet" href="../scss/custom.css">
     <script src="https://kit.fontawesome.com/218227aa6c.js" crossorigin="anonymous"></script>
     <title>P2</title>
 </head>
@@ -35,7 +33,7 @@
                                     <a class="nav-link" href="#">About me</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link">Testimonials</a>
+                                    <a class="nav-link" href="#">Testimonials</a>
                                   </li>
                                 </ul>
                               </div>
@@ -58,7 +56,7 @@
                             <div class="mt-5">
                                 <p>Hey, I am John</p>
                                 <h1>I create <span class="text-secondary">product design</span> and brand experience</h1>
-                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit nesciunt minus ex magnam. Fugit inventore quisquam, maiores iste, aut nesciunt dicta, nemo nobis totam officia earum sequi dolor ipsam.</p>
+                                <p class="pb-3 p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit nesciunt minus ex magnam. Fugit inventore quisquam, maiores iste, aut nesciunt dicta, nemo nobis totam officia earum sequi dolor ipsam.</p>
                                 <button type="button" class="btn btn-primary">Get in Touch</button>
                             </div>
                             
@@ -69,65 +67,64 @@
                     </div>
                 </section>
                 <section id="skill">
-                    <p>My Skills</p>
+                    <p  class="pt-5">My Skills</p>
                     <h2>My Expertise</h2>
                     <div class="row row-cols-1 row-cols-md-4 g-3">
-                        <div class="col">
+                        <div class="col apartado">
                           <div class="card h-100 bg-info">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="images/icono1.png" class="img-icono bg-white" alt="...">
                             <div class="card-body">
                               <h3 class="card-title">Strategy & Direction</h3>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                             </div>
                           </div>
                         </div>
                         <div class="col">
                           <div class="card h-100 bg-info">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="images/icono2.jpg" class="img-icono" alt="...">
                             <div class="card-body">
                               <h3 class="card-title">Branding & Logo</h3>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                             </div>                           
                           </div>
                         </div>
                         <div class="col">
                           <div class="card h-100 bg-info">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="images/icono3.jpg" class="img-icono" alt="...">
                             <div class="card-body">
                               <h3 class="card-title">UI & UX Design</h3>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                             </div>
                           </div>
                         </div>
                         <div class="col">
                             <div class="card h-100 bg-info">
-                              <img src="..." class="card-img-top" alt="...">
+                              <img src="images/icono4.jpg" class="img-icono" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Webflow Development</h3>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                               </div>
                             </div>
                           </div>
                       </div>
                 </section>
                 <section>
-                    <div class="row">
+                    <div class="row pt-5 pb-5">
                         <div class="col-6">
                             <img class="img-fluid" src="images/About Me.png" alt="">
                         </div>
-                        <div class="col-6">
-                            <div>
+                        <div class="col-6 align-self-center">
+                            <div >
                                 <p>About</p>
                                 <h2>About Me</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
-    
+                                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.    
                                     Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <div class="row">
+                    <div class="row pt-5">
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-8">
@@ -135,7 +132,7 @@
                                     <h2>My Portfolio</h2>
                                 </div>
                                 <div class="col-4">                                   
-                                    <button type="button" class="btn btn-danger d-flex align-items-center"><p>icono</p>Visit My Dribble</button>
+                                    <button type="button" class="btn btn-danger d-flex align-items-center  text-light"><img src="images/Vector1.png" alt="" class="pr-5"> Visit My Dribble</button>
                                 </div>
                             </div>
                         </div>
@@ -145,9 +142,9 @@
                                 <img src="images/Image.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h3 class="card-title">Ahuse</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                                    <div>
-                                        <a href="#">View In Dribbble icono</a>
+                                    <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                    <div class="text-dark">
+                                        <a href="#">View In Dribbble <img src="images/Vector2.png" alt=""></a>                                
                                     </div>
                                 </div>                               
                               </div>
@@ -157,9 +154,9 @@
                                 <img src="images/Image2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h3 class="card-title">App Dashboard</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                    <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                                     <div>
-                                        <a href="#">View In Dribbble icono</a>
+                                        <a href="#">View In Dribbble <img src="images/Vector2.png" alt=""></a>
                                     </div>
                                 </div>
                               </div>
@@ -169,9 +166,9 @@
                                 <img src="images/Image3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h3 class="card-title">Easy Rent</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                    <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                                     <div>
-                                        <a href="#">View In Dribbble icono</a>
+                                        <a href="#">View In Dribbble <img src="images/Vector2.png" alt=""></a>
                                     </div>
                                 </div>
                               </div>
@@ -185,13 +182,20 @@
                       <h2>Customer testimonials</h2>                    
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
-                      <div class="col">
-                        <div class="card h-100 bg-info">
-                          <p>estrellas</p>
+                      <div class="col ">
+                        <div class="card h-100 bg-info opinion">
+                          <div class="d-flex">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                          </div>
+                          
                           <div class="card-body">
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p> 
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p> 
                               <div class="d-flex">
-                                <p>imagen</p>
+                                <img src="images/avatar1.png" alt="" class="img-avatar">
                                 <div>
                                   <p>Dianne Russell</p>
                                   <p>Starbucks</p>
@@ -201,12 +205,18 @@
                         </div>
                       </div>
                       <div class="col">
-                        <div class="card h-100 bg-info">
-                          <p>estrellas</p>
+                        <div class="card h-100 bg-info opinion">
+                          <div class="d-flex">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                          </div>
                           <div class="card-body">
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
                               <div class="d-flex">
-                                <p>imagen</p>
+                                <img src="images/avatar2.png" alt="" class="img-avatar">
                                 <div>
                                   <p>Kristin Watson</p>
                                   <p>Louis Vuitton</p>
@@ -216,12 +226,18 @@
                         </div>
                       </div>
                       <div class="col">
-                        <div class="card h-100 bg-info">
-                          <p>estrellas</p>
+                        <div class="card h-100 bg-info opinion">
+                          <div class="d-flex">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                            <img src="images/Vector.png" class="estrella" alt="">
+                          </div>
                           <div class="card-body">
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>                          
+                              <p class="card-text p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>                          
                               <div class="d-flex">
-                                <p>imagen</p>
+                                <img src="images/avatar3.png" alt="" class="img-avatar">
                                 <div>
                                   <p>Kathryn Murphy</p>
                                   <p>McDonald's</p>
@@ -232,43 +248,43 @@
                       </div>
                     </div>
                 </section>
-                <section id="formulario" class="pb-5 align-items-center">
+                <section id="formulario" class="pb-5 align-items-center justify-content-center">
                   <p class="text-center">Get In Touch</p>
                   <h2 class="text-center">Contact me</h2>
                   <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                   
-                  <form class="row  w-75">
+                  <form class="row">
                     <div class="col-md-6 pb-3">
                       <label class="form-label">First Name</label>
-                      <input type="text" class="form-control">
+                      <input type="text" class="form-control border-primary">
                     </div>
                     <div class="col-md-6">
                       <label class="form-label">Last Name</label>
-                      <input type="text" class="form-control">
+                      <input type="text" class="form-control border-primary">
                     </div>
                     <div class="col-md-6 pb-3">
                       <label class="form-label">Email</label>
-                      <input type="email" class="form-control">
+                      <input type="email" class="form-control border-primary">
                     </div>
                     <div class="col-md-6">
                       <label class="form-label">Phone number</label>
-                      <input type="text" class="form-control">
+                      <input type="text" class="form-control border-primary">
                     </div>
                     <div class="col-md-12 pb-3">
                       <label class="form-label">Choose a topic</label>
-                      <select id="inputState" class="form-select">
+                      <select id="inputState" class="form-select border-primary">
                         <option selected>Select one...</option>
                         <option>...</option>
                       </select>
                     </div>
                     <div class="col-md-12 pb-3">
                       <label class="form-label">Message</label>
-                      <textarea class="form-control" rows="10" placeholder="Type your message..."></textarea>
+                      <textarea class="form-control border-primary" rows="10" placeholder="Type your message..."></textarea>
                     </div>
                     <div class="col-12 pb-3">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
+                        <label class="form-check-label border-primary" for="gridCheck">
                           I accept the terms
                         </label>
                       </div>
@@ -321,6 +337,7 @@
               <i class="fa-brands fa-instagram"></i>
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-linkedin"></i>
+              
             </div>
         </div>
         <div class="row border-top border-dark justify-content-between pb-5">
